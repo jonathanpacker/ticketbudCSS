@@ -1,0 +1,36 @@
+* {
+ font-family:"Roboto Condensed",sans-serif !important;
+}
+#event-tickets {
+ padding-top: 32px;
+}
+#event-tickets h2, .tickets h3 {font-size:18px;font-weight:700;color:#464646;margin:0 0 .72222em;text-transform:uppercase;font-family:"Roboto Condensed",sans-serif;}
+.btn.btn-success {
+ background: #3abdb3 !important;
+ margin: 0 0 1.5rem;
+ border: 1px solid #009286;
+ font-family: Roboto, sans-serif;
+ font-weight: 400;
+ padding: 0.75rem 1rem;
+ width: 100%;
+ text-align: center;
+ font-size: 20px;
+}
+.btn.btn-success:hover {
+ border: 1px solid #009286;
+ background: #009286 !important;
+}
+.tell-user-there-are-more-tix-beyond-scroll {
+ display: none !important;
+}
+.tickets-center {
+ margin-bottom: 18px;
+}
+#event-description-text p {
+ font-size:16px;
+}
+@media only screen and (max-width: 1205px) {
+ .img-responsive {
+  display: none !important;
+ }
+} 
